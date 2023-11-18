@@ -1,6 +1,7 @@
 The MIT License (MIT)
 ===============
 
+fix v2
 Copyright (c) 2019-2022 Omiya Games
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
