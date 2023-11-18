@@ -1,5 +1,8 @@
 {                                                                                            
-    "tagFormat": "v${version}",                                                                
+    "tagFormat": "v${version}",   
+"resolutions": {
+    "npm/chalk": "^4.1.2"
+},                                                             
     "plugins": [                                                                               
       ["@semantic-release/commit-analyzer", { "preset": "angular" }],                          
       "@semantic-release/release-notes-generator",                                             
