@@ -18,8 +18,6 @@ jobs:
           node-version: '12'  # Adjust as needed
           registry-url: 'https://registry.npmjs.org/'
 
-    - name: Install Dependencies
-      run: npm install
 
     - name: Release
       uses: cycjimmy/semantic-release-action@v2
