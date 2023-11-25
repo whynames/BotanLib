@@ -15,14 +15,18 @@ jobs:
       id: semantic
       
       uses: cycjimmy/semantic-release-action@v2
+      
       with:
-       semantic_version: 15.13.28
+        semantic_version: 15
         extra_plugins: |
           @semantic-release/changelog
           @semantic-release/git
         branch: main
+
       env:
+      
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
     - name: Create upm branch
       run: |
         git branch -d upm &> /dev/null || echo upm branch not found
