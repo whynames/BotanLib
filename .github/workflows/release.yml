@@ -19,8 +19,8 @@ jobs:
       with:
         semantic_version: 15.13.28
         extra_plugins: |
-          @semantic-release/changelog
-          @semantic-release/git
+          @semantic-release/changelog@2.7.0
+          @semantic-release/git@2.0.0
         branch: main
 
       env:
